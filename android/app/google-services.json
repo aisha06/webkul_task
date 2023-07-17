@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "73599976793",
+    "project_id": "webkultask",
+    "storage_bucket": "webkultask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73599976793:android:5fe57bb20cf849896c7848",
+        "android_client_info": {
+          "package_name": "com.example.webkul_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73599976793-5mklme32en19qqhsoeddphksuf39aso1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdgz_62scxPmJJVWnPd6dUaxCaL686HtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73599976793-5mklme32en19qqhsoeddphksuf39aso1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "73599976793-c15gts1vjee56iuvdh6m7sh77g9kj1i8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.webkulTask.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
