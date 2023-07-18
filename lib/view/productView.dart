@@ -63,10 +63,6 @@ class _ProductViewState extends State<ProductView> {
                       .size
                       .width,
                 )
-              // child: Image.asset(
-              //   "assets/images/Burger.png",
-              //   fit: BoxFit.cover,
-              // ),
             ),
             Container(
               margin: EdgeInsets.only(left: 20.0, right: 20.0),

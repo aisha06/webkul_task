@@ -87,13 +87,7 @@ class _HomeViewState extends State<HomeView> {
       appBar: AppBar(
         backgroundColor: Color(0xFF436B4E),
         elevation: 0,
-
-        // leading: IconButton(
-        //   icon: Icon(Icons.menu,color: Colors.white),
-        //   onPressed: () {
-        //     // Handle drawer or menu button press
-        //   },
-        // ),
+        
         actions: [
           IconButton(
             icon: const Icon(
