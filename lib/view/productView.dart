@@ -191,7 +191,7 @@ class _ProductViewState extends State<ProductView> {
               padding: EdgeInsets.all(9.0),
               decoration: BoxDecoration(
                   border: Border.all(
-                    color: Colors.green, // Border color
+                    color: Color(0xFF436B4E), // Border color
                     width: 2.0, // Border width
                   ),
                   borderRadius: BorderRadius.circular(5)),
@@ -205,9 +205,6 @@ class _ProductViewState extends State<ProductView> {
             GestureDetector(
               onTap: () {
                 _cartController.addToCart();
-
-
-
                 _showSnackbar(context);
               },
               child: Container(

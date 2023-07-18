@@ -15,15 +15,7 @@ import '../model/productModel.dart';
 
 class HomeView extends StatefulWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
-
-  void _handleLogout(BuildContext context) async {
-    await _auth.signOut();
-    Navigator.pop(context); // Close the drawer
-    // Navigate to the login or home page after logout
-    // Replace this line with your desired navigation logic.
-    // For example, you can use Navigator.pushReplacementNamed
-    // to navigate to the login page.
-  }
+  int hexColor = 0xFF36612F;
 
   @override
   State<HomeView> createState() => _HomeViewState();
